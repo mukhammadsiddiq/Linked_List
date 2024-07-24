@@ -20,7 +20,7 @@ class Stack:
             return f"Stack is empty"
         temp = self.head
         self.head = self.head.next
-        temp = None
+        return temp.data
 
     def is_empty(self):
         return True if self.head is None else f"Stack is not empty"
@@ -29,12 +29,12 @@ class Stack:
         return True if self.head is not None else f"Stack is empty"
 
     def peek(self):
-        if self.head is None:
+        if self.is_empty():
             return f"Stack is empty"
         return self.head.data
 
     def size(self):
-        if self.head is None:
+        if self.is_empty():
             return f"Stack is empty"
         temp = self.head
         i = 1
