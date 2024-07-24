@@ -36,3 +36,4 @@ The LinkedList class manages the entire linked list and provides methods to mani
 # Notes
 ## The is_full() method is included but does not serve a practical purpose in this dynamic stack implementation. It always indicates that the stack is empty.
 ## The pop() method does not return the removed value. It only updates the stack's head. You may want to modify it to return the value of the removed node if needed.
+## Simple stack and Linked List were coded for teaching purposes
